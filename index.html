@@ -21,7 +21,7 @@
 </header>
     <div class=" w-75 mx-auto m-3  bookmarker "  >
         <hr class="my-3 text-black">
-        <div class="contents  ">
+        <div class="contents mb-3  ">
             <h3 class="fw-bolder text-center mb-3">Bookmark your favorite sites</h3>
             <p class="text-center fw-bold mb-0">Site Name</p>
             <label for="WebSiteNameInput"></label>
@@ -30,15 +30,17 @@
             <label for="WebSiteUrlInput"></label>
             <input id="WebSiteUrlInput" class="form-control mb-3" type="text" placeholder="Website Url">
             <div class="button d-flex justify-content-center">
-                <button class="btn btn-primary px-2  ">Submit</button>
+                <button  onclick="Add()" class="btn btn-primary px-2  ">Submit</button>
             </div>
             
         </div>
+        <div id="tabelWebsites"></div>
+
         <hr>
     
         </div>
         <footer>
-            <h4 class="container  me-4  ">© 2019 Bookmarker Inc.</h4>
+            <h4 class="container  me-4  ">© 2024 Bookmarker Inc.</h4>
         </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/main.js"></script>
